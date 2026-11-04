@@ -1,0 +1,8 @@
+name: first workflow
+on: push
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greeting
+        run: eco "hello"
